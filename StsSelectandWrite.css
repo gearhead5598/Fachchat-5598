@@ -1,0 +1,126 @@
+
+/* **********************Jaha se text aur video select hoga ************** */
+        .subStsR1 {
+            display: flex;
+            width: 100%;
+        }
+
+        .subStsc1 {
+            width: 30%;
+            border-right: 2px solid black;
+            box-shadow: 0px 0px 15px black;
+
+        }
+
+        .subStsc2 {
+            width: 70%;
+            min-height: 100vh;
+            justify-content: center;
+            display: flex;
+        }
+
+        .StsSelectType {
+            margin: auto;
+            display: flex;
+
+        }
+
+        .StsVideo {
+            width: 250px;
+            height: 350px;
+            border: 2px solid red;
+            margin: 0px 15px 0px 0px;
+            border-radius: 10px;
+            background-color: black;
+            color: white;
+            display: flex;
+            cursor: pointer;
+        }
+
+        .StsText {
+            width: 250px;
+            height: 350px;
+            border: 2px solid red;
+            margin: 0px 15px 0px 0px;
+            border-radius: 10px;
+            display: flex;
+            cursor: pointer;
+            color: white;
+        }
+
+        .StsVideo>h3,
+        .StsText>h3 {
+            margin: auto;
+            padding: 10px;
+    text-align: center;
+        }
+        .StstextSelect>h3{
+            color: black;
+        }
+
+        .C1btn {
+            width: 80%;
+            display: flex;
+         
+            margin: auto;
+            box-shadow: 0px 0px 15px black;
+    padding: 5px;
+        }
+
+        .C1heading {
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+        }
+
+        .C1profile {
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            margin: auto;
+
+        }
+
+        .c1userProfile {
+            width: 50px;
+            height: 50px;
+            border: 1px solid red;
+            border-radius: 50px;
+            overflow: hidden;
+        }
+        .statusprofile{
+            width:-webkit-fill-available;
+        }
+
+        .c1username {
+
+        }
+        .C1headSetting{
+            width: 30%;
+    height: 42px;
+    margin: auto;
+        }
+        .C1close{
+            width: 30%;
+    height: 42px;
+
+  
+        }
+  /* *****************jaha likha jayega*********************** */
+  .StsWriteArea{
+    display: flex;
+flex-direction: column;
+width: 80%;
+margin: auto;
+}
+.StstexArea{
+
+
+}
+.Stssendbtn{
+width: 40%;
+margin: auto;
+margin-top: 5px;
+height: 42px;
+}

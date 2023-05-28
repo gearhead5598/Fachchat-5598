@@ -1,0 +1,369 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.userinfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.usermainR1{
+    width: 80%;
+    margin: auto;
+
+}
+.usercover{
+    width: 100%;
+    margin: auto;
+    border: 1px solid black;
+    height:350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0px 0px 10px 10px
+}
+.usercoveredit{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
+    color: white;
+  position: absolute;
+  bottom: 5%;
+  right:5%;
+  cursor: pointer;
+}
+.usermainR2{
+    width: 75%;
+    margin: auto;
+}
+.usersubR2{
+    width: 80%;
+    margin: auto;
+        border-bottom: 1px solid black;
+   
+    padding-bottom: 5%;
+/*    border-bottom: 2px solid black;*/
+}
+.R2profile{
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 51%;
+    position: absolute;
+    top:385px;
+/*    background: wheat;*/
+    overflow: hidden;
+}
+.R2profilimg{
+    width: -webkit-fill-available;
+}
+
+.R2profileinfo{
+    margin-left: 25%;
+    padding-top: 15px;
+
+}
+.R2username{
+
+}
+.R2Name{
+    margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.R2userfriends{
+    width: 100%;
+/*    border: 2px solid black;*/
+    display: flex;
+    justify-content: space-between;
+    margin-top:2%;
+    padding: 5px 0px 5px 0px;
+}
+.R2showfriends{
+    width: 40%;
+}
+.R2editprofilebtn{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.R2addstory{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: .8rem;
+   
+}
+.R2editP{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: .8rem;
+    
+}
+
+.R3usernav{
+    width: 80%;
+    margin: auto;
+    margin-top: 1%;
+}
+.R3subuser{
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+/*    border: 2px solid rebeccapurple;*/
+    padding: 5px 0px 5px 0px;
+
+}
+.R3navlist{
+    width: 60%;
+/*    border: 2px solid red;*/
+    display: flex;
+    justify-content: space-evenly;
+        font-weight: 600;
+}
+.R3navlist>label{
+    cursor: pointer;
+}
+.R3dot{
+    width: 10%;
+    border: 2px solid green;
+
+}
+
+
+
+.seconduserinfo{
+    width: 100%;
+}
+
+.subsecunduserinfo{
+    width: 80%;
+    margin: auto;
+}
+.subseconduserinfo1{
+    margin: auto;
+    width: 75%;
+}
+
+
+/*pop up for edit profile css*/
+
+
+.edpromain{
+    width: 100%;
+    position: absolute;
+    display:none;
+    
+    top: 10%
+        
+   
+
+}
+.edproshow{
+    display:unset;
+    
+}
+.edproc2edit,.edproc3edit,.edproc4edit,.edproc5edit{
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+.edproc2h3,.edproc3h3,.edproc4h3,.edproc5h3{
+    font-size: 1.3rem;
+}
+.edproR1{
+    width: 70%;
+    margin: auto;
+    border: 1px solid red;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    background: aliceblue;
+}
+.edproC1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+.edproc1h1{
+    margin: auto;
+    font-size: 1.5rem;
+
+}
+.edproc1h2{
+    padding-right: 10px;
+    cursor: pointer;
+}
+.edproC2{
+    width: 100%;
+    border-bottom: 1px solid black;
+
+}
+.edproc21{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.edproc21h3{
+
+}
+.edproc22{
+    display: flex;
+    justify-content: center;
+}
+.edproc22pic{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 50%;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+.profilpicpopup{
+       width: -webkit-fill-available;
+}
+
+.edproC3{
+    width: 100%;
+    border-bottom: 1px solid black;
+
+}
+.edproc31{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.edproc31h3{
+
+}
+.edproc32{
+    display: flex;
+    justify-content: center;
+}
+.edproc32coverpic{
+    width: 600px;
+    height: 200px;
+    border: 1px solid red;
+    border-radius: 40px;
+    margin-bottom: 5%;
+    overflow: hidden;
+}
+
+.coverpicedproc32{
+    width:  -webkit-fill-available;
+}
+
+.edproC4{
+    width: 100%;
+}
+.edproc41{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.edproc41h3{
+
+}
+.edproc42{
+    display: flex;
+    justify-content: center;
+}
+.edproc42text{
+
+
+}
+.edproC5{
+    width: 100%;
+}
+.edproc51{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.edproc51h3{
+
+}
+.edproc52{
+    display: flex;
+    justify-content: center;
+}
+.edproc52text{
+
+
+}
+
+/*profile picture edit karne kis css yaha h */
+
+  .editpopmain {
+            width: 100%;
+            position: absolute;
+            top: 20%;
+            display: none;
+            
+        }
+        .editpopshow{
+            display: unset;
+        }     
+
+        .editpopR1 {
+            width: 40%;
+            margin: auto;
+            border: 1px solid red;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px black;
+            background-color: aliceblue;
+
+        }
+
+        .editpopC1 {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+        }
+
+        .editpopc1h1 {
+            margin: auto;
+            font-size: 1.5rem;
+            margin-bottom:10px;
+            margin-top:10px;
+
+        }
+
+        .editpopc1h2 {
+            padding-right: 10px;
+            cursor: pointer;
+            margin-bottom:10px;
+            margin-top:10px;
+
+        }
+
+        .editpopC2 {
+            width: 100%;
+            display: flex;
+            padding: 10px 0px 10px 0px;
+        }
+
+        .editpopc21 {
+            width: 30%;
+            text-align: center;
+        }
+
+        .editpopc22 {
+            width: 70%;
+            font-size: 1.5rem;
+        }
+
+        .editpopC3 {
+            width: 100%;
+            display: flex;
+            padding: 10px 0px 10px 0px;
+        }

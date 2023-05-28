@@ -1,0 +1,613 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.mainFr1{
+    width: 100%;
+    background-color: rgb(192, 190, 190);
+    color: white;
+    display: flex;
+    box-shadow: 0px 0px 10px black;
+}
+.submainFc1{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0px 5px 0px
+}
+.submainFc2{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.submainFc3{
+    width: 10%;
+    text-align: center;
+    display: flex;
+}
+.Fc1logo{
+    margin: auto;
+    display: flex;
+
+}
+.Fc1search{
+
+    border-radius: 25px;
+    padding-left:3px;
+    border: 2px solid white;
+}
+.Fc2Label{
+    width: 10%;
+    margin: auto;
+    display: flex;
+
+}
+.navicons{
+    width: 60%;
+    cursor: pointer;
+    padding: 7px;
+
+    margin: auto;
+}
+.navicon1{
+    width: 80%;
+    cursor: pointer;
+    padding: 7px;
+
+    margin: auto;
+}
+
+.mainlogo{
+
+    width: 75%;
+
+    margin: auto;
+}
+
+.Fc3massenger{
+    margin: auto;
+
+    border-radius: 20px;
+    padding: 3px;
+}
+.Fc3notification{
+    margin: auto;
+
+    border-radius: 20px;
+    padding: 3px;
+}
+.Fc3profile2{
+    margin: auto;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    overflow: hidden;
+}
+
+.navprofile{
+    width: -webkit-fill-available;
+}
+
+/* Here the end of nav  */
+
+
+
+.afternavR2{
+    width: 100%;
+    display: flex;
+    margin-top: 2%;
+}
+.subR1{
+    width: 22%;
+}
+.R1list{
+    display: flex;
+    width: 50%;
+    margin: 0% 0px 0% 5%;
+
+}
+.R1listlogo{
+    width: 30%;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.R1listprofile{
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    overflow: hidden;
+    padding-right: 0px;
+    display: flex;
+}
+.R1horizontalnavicon{
+
+    width: 100%;
+
+    padding: 7px;
+
+    margin: auto;
+
+}
+.R1listlabel{
+    cursor: pointer;
+    margin: auto;
+    margin-left: 0%;
+}
+.subR2{
+    width: 56%;
+    display: flex;
+    /*justify-content: center;*/
+    /*border:2px solid red;*/
+    flex-direction: column;
+}
+.subR2navandStories{
+    box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+    width: 100%;
+}
+.subR2nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /*    border:2px solid black;*/
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+
+
+}
+.subR2navlabel{
+    padding: 15px;
+    cursor: pointer;
+}
+
+.subR2stories{
+    width: 100%;
+    display: flex;
+/*    justify-content: space-evenly;*/
+    /*    border:2px solid black;*/
+    margin: auto;
+    margin-bottom: 2%;
+    padding: 1%;
+    position: relative;
+}
+.userstories{
+    width: 130px ;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+        margin: 0px 1% 0px 1%;
+}
+#userstories-id{
+        padding: 10px;
+    text-align: center;
+}
+.userstoriesh1div{
+    cursor: pointer;
+    position: absolute;
+    bottom: 5%;
+    background: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+.userstoriesh1div>h1{
+    margin: auto;
+
+}
+
+.nextslid{
+    position: absolute;
+    top: 42%;
+    right: 5%;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+
+    display: flex;
+}
+.nextslid>label{
+    margin: auto;
+}
+.nextslidicon{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+.subR2afternavandstories{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /*    border:2px solid black;*/
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 7%;
+    flex-direction:column ;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 15px;
+}
+.subR2logoandquite{
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 0px 2% 0px;
+}
+.subR2profile{
+
+}
+.subR2quite{
+    width: 80%;
+    padding: 5px;
+    border-radius: 21px;
+    border: 1px solid black;
+}
+.subR2downnav{
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 0px 2% 0px;
+}
+.downnav1{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.subR3{
+    width: 22%;
+
+}
+
+
+/*here is the messanger css persent */
+
+
+/* .msgmain{
+    width: 100%;
+    display: flex;
+
+} */
+.msgR1{
+    width: 30%;
+    margin: auto;
+    margin-right: 5%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    position: absolute;
+    right: 1%;
+    display: none;
+    top: 20%;
+    background-color: rgb(250 250 250);
+
+
+
+}
+.chatR1{
+    width: 30%;
+    margin: auto;
+    margin-right: 5%;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 10px;
+    position: absolute;
+    right: 1%;
+    display: none;
+    top: 20%;
+    background-color: rgb(250 250 250);
+}
+.showmessenger{
+    display: unset;
+}
+
+#msglist{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.msglistinput{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 2% 0px 2% 0px;
+}
+#msglist>button{
+    padding: 5px;
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-right: 0px;
+}
+.chatlist{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 10px;
+    overflow: scroll;
+}
+
+
+.msgC1{
+    display: flex;
+    width: 100%;
+    padding-top: 5%;
+
+}
+.msgc11{
+    width: 40%;
+}
+.msgc11h1{
+    font-size: 1.3rem;
+    margin-left: 10px;
+}
+.msgc12{
+    width: 60%;
+    display: flex;
+    padding-right: 10px;
+
+}
+.chaticonmsgc12{
+
+    margin: auto;
+    display: flex;
+    justify-content: end;
+}
+.chaticonmsgc12>img{
+    width: 40%;
+}
+
+.msgC2{
+    width: 100%;
+    display: flex;
+}
+.msgc2search{
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.msgC3{
+    width: 100%;
+    display: flex;
+    margin-bottom: 5%;
+}
+.msgc3icon{
+    width: 10%;
+    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.msgc3h5{
+    margin: auto;
+    margin-left: 0%;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.msgC3>p{
+    margin: auto;
+    margin-right: 10px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+.msg-R1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-bottom: 5%;
+
+}
+.msg-C1{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 10px;
+    margin: auto;
+}
+.msg-C1>img{
+    width: -webkit-fill-available;
+}
+.msg-C2{
+    width: 60%;
+    margin: auto;
+}
+.msg-C3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: auto;
+    background: green;
+    
+ 
+    
+}
+/*#msgC3-id{
+    display: none;
+}*/
+
+
+
+/*for post all css persent here*/
+
+.post-R1{
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+    margin-bottom: 5%;
+}
+.post-C1{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    /*    border: 1px solid green;*/
+    padding: 10px;
+}
+.postc11{
+    width: 50%;
+    display: flex;
+}
+.postc111{
+    width: 40px;
+    height: 40px;
+    border: 1px solid red;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+.postc111>img{
+    width: -webkit-fill-available;
+}
+.postc112{
+    display: flex;
+}
+.postc112>p{
+    margin: auto;
+    margin-left: 10px;
+}
+.postc12{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.postc12>img{
+    width: 6%;
+    height: 50%;
+    margin: auto;
+    margin-right: 0px;
+}
+.caption-cls{
+    width: 100%;
+    padding-left: 10px;
+}
+.post-C2{
+    width: 100%;
+    margin: auto;
+
+    /*    border: 1px solid gray;*/
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+}
+.post-C2>img{
+    width: -webkit-fill-available;
+}
+.post-C3{
+    width: 100%;
+    margin: auto;
+}
+.postc31{
+    width: 100%;
+    height: 20px;
+    /*    border-bottom: 1px solid #e0e000;*/
+    margin-bottom: 5px;
+}
+
+.postc32{
+    width: 100%;
+    padding-bottom: 5px;
+    /*    border-bottom: 1px solid #e0e000; */
+    display: flex;
+    justify-content: space-around;
+}
+.postc32ststus{
+        justify-content: start;
+   
+    padding-left: 5%;
+}
+.postbtns{
+    width: 20%;
+    padding: 10px;
+    border: navajowhite;
+    background: none;
+}
+.postbtns:hover{
+    background: whitesmoke;
+    border-radius: 10px;
+}
+.postbtnicons{
+    width: 15%;
+    margin-right: 5px;
+}
+.postc33{
+    width: 100%;
+    height: 100px;
+    /* overflow: scroll; */
+    overflow-y: scroll;
+        padding-left: 30px;
+}
+.postc34{
+    width: 100%;
+    display: flex;
+    margin: 10px 0px 10px 0px;
+    justify-content: space-evenly;
+}
+.postc34>button{
+    width: 10%;
+    border: 1px solid beige;
+    border-radius: 10px;
+}
+.postcomt{
+    padding: 10px;
+    width: 80%;
+    /*    margin: auto;*/
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+/*post popup css persent here*/
+
+/*.mainpost-R1{
+  width: 100%;
+  display: flex;
+}*/
+.postpopup-R1{
+    width: 40%;
+    margin: auto;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    background: whitesmoke;
+}
+.postpopshow{
+    display: unset;
+}
+.postpop-C1{
+    text-align: center;
+    margin: 5%;
+    border-bottom: 1px solid black;
+    padding-bottom: 5%;
+}
+.postpop-C2{
+    text-align: center;
+    margin: 5%;
+}
+.postpopbtn{
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
